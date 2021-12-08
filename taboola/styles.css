@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #ffffff;
+  min-width: 386px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.container-top {
+  max-width: 980px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url(https://d9hhrg4mnvzow.cloudfront.net/go.taboola.com/40-native-casestudies/25fbec64-b44c69ac-header5-1hd0k41cr0k402a000_00000000000000000001o.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.logo {
+  text-align: left;
+}
+
+.logo-image {
+  padding: 15px;
+}
+
+.h1-div {
+  max-width: 780px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.h1-div h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+}
+
+
+.hidden-img {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* MIDDLE PARA AND FORM */
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  max-width: 780px;
+  margin: 40px auto;
+  
+}
+
+.middle-para {
+  text-align: left;
+  width: 360px;
+  padding: 0 10px;
+}
+
+.middle-para-hide {
+  display: none;
+}
+
+
+.middle-para h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.middle-para p {
+  font-size: 16px;
+  font-weight: 100;
+  /* color: #ffffff; */
+}
+
+
+
+.middle-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  padding: 0 10px;
+}
+
+.middle-form input {
+height: 47px;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 15px;
+padding: 0 15px;
+border: none;
+}
+
+.countries {
+  height: 47px;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 25px;
+padding: 0 15px;
+border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* BOTTOM SECTION */
+
+.bottom {
+  background-color: white;
+  margin: 240px auto 0;
+  text-align: center;
+ 
+ 
+}
+
+.bottom-h2 {
+  max-width: 525px;
+  color: rgb(51, 51, 51);
+  font-size: 26px;
+  margin: 0 auto 30px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.bottom-p {
+  max-width: 594px;
+  width: 100%;
+  color: rgb(85, 85, 85);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto 60px;
+  padding: 0 15px;
+}
+
+.a-tag {
+  color: rgb(229, 172, 0);
+  font-size: 16px;
+  font-weight: 100;
+}
+
+
+/* columns */
+
+.four-columns {
+  display: flex;
+  
+}
+
+.column1, .column2, .column3, .column4 {
+  display: inline-block;
+  border-right: 2px solid rgb(121, 140, 174);
+  padding: 0 40px;
+  /* margin-bottom: 60px; */
+}
+
+.column4 {
+  border: none;
+}
+
+.four-columns p{
+  font-size: 18px;
+  font-weight: 100px;
+  color: rgb(96, 111, 135);
+}
+.four-columns h1{
+  font-size: 48px;
+  color: rgb(96, 111, 135);
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+
+
+
+.button {
+  background-color: rgb(255, 191, 0);
+  border-radius: 25px;
+  /* height: 47px!important; */
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 15px!important;
+  border: none;
+  color: #ffffff;
+  /* line-height: 3; */
+}
+.button:hover {
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.bottom-button {
+  display: flex;
+
+}
+
+.button2 {
+  margin: 40px auto;
+  width: 300px;
+  background-color: rgb(255, 191, 0);
+  border-radius: 25px;
+  /* height: 47px!important; */
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 15px!important;
+  border: none;
+  color: #ffffff;
+  /* line-height: 3; */
+}
+.button2:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+
+
+/* bottom2 section */
+
+.bottom2 {
+  background-image: url(https://d9hhrg4mnvzow.cloudfront.net/go.taboola.com/40-native-casestudies/03a78050-f402a7a8-footer4-1hc0mb1hc0mb000000_00000000000000000001o.jpg);
+  height: 627px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+ 
+}
+
+.bottom-div {
+  max-width: 980px;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  text-align: right;
+  color: grey;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inner {
+  max-width: 380px;
+  margin-right: 100px;
+  margin-top: 180px;
+  text-align: left;
+
+}
+
+.inner p {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.4;
+  text-align: left;
+  margin-bottom: 60px;
+  color: rgb(85, 85, 85);
+}
+
+.button2b {
+  padding: 15px 50px!important;
+}
+
+/* FOOTER */
+
+.container {
+  background-color: rgb(34, 33, 33);
+}
+.footer {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+ padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 33, 33);
+}
+
+.footer-button {
+  font-size: 12px;
+  font-weight: 400!important;
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 10px 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 840px) {
+      
+  .h1-div h1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+
+  .four-columns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column1, .column2, .column3, .column4 {
+    margin-bottom: 45px;
+  }
+
+
+  .inner {
+    text-align: center;
+  }
+  
+  .button-prob {
+    text-align: center!important;
+    margin: 0 auto!important;
+  }
+
+    
+
+  .bottom-div {
+    max-width: 980px;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: grey;
+    display: block;
+    
+  }
+
+  .bottom2 {
+    height: 400px;
+  }
+  
+  .inner {
+    
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .inner p{
+    text-align: center;
+  
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+      
+
+  .hero {
+    height: 830px;
+  }
+
+
+  .hidden-img {
+    display: block;
+    margin: 20px auto;
+  }
+  
+
+  .middle {
+    display: block;
+    justify-content: space-between;
+    max-width: 780px;
+    margin: 20px auto;
+    
+  }
+  
+  .middle-para {
+   display: none;
+  }
+
+  .middle-para-hide {
+    display: block;
+    padding: 35px 25px 0;
+    color: rgb(51, 51, 51);
+    margin: 20px 0 90px;
+  }
+  
+  .middle-para h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .middle-para p {
+    font-size: 16px;
+    font-weight: 100;
+    /* color: #ffffff; */
+  }
+  
+  
+  
+  .middle-form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding: 0 10px;
+    margin: 0 auto 30px;
+    
+  }
+  
+
+
+  .column1, .column2, .column3, .column4 {
+    border-right: none;
+  }
+  
+
+  .bottom {
+    margin: auto 0;
+    
+  }
+  
+  
+
+
+  .inner {
+    margin: 75px auto 0;
+    text-align: center;
+    
+  }
+
+  .inner p{
+    text-align: center;
+    
+  }
+
+  .button-prob {
+    margin: 0 auto!important;
+  }
+
+
+
+  .bottom2 {
+    height: 400px;
+
+  }
+
+
+  .footer {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+   padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 33, 33);
+    
+  }
+  
+
+  .container {
+    vertical-align: bottom;
+    height: 100px;
+  }
+
+
+
+
+}
